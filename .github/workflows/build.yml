@@ -3,7 +3,7 @@ name: leadpro-rabbit-mq
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build-an-deploy:
     runs-on: ubuntu-latest
